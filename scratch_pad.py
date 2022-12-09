@@ -1,4 +1,4 @@
-#hello worldc 출력
+# hello worldc 출력
 # print("Hello World!")
 
 # A + B
@@ -25,20 +25,20 @@
 # print(a * int(b[0]))
 # print(a * int(b))
 
-#고양이 문제
+# 고양이 문제
 # print("\    /\\")
 # print(" )  ( ')")
 # print("(  /  )")
 # print(" \(__)|")
 
-#강아지
+# 강아지
 # print("|\_/|")
 # print("|q p|   /}")
 # print("( 0 )""\"\"\"""\\""")
 # print("|""\"""^""\"""`""    |")
 # print("||_/=\\\\__|")
 
-#새싹
+# 새싹
 # print("         ,r\'\"7")
 # print("r`-_   ,'  ,/")
 # print(" \\. \". L_r\'")
@@ -46,7 +46,7 @@
 # print("      |")
 # print("      |")
 
-#두 수 비교하기
+# 두 수 비교하기
 # a, b = map(int, input().split())
 # if (a > b):
 #     print(">")
@@ -55,7 +55,7 @@
 # else:
 #     print("==")
 
-#시험성적
+# 시험성적
 # a = int(input())
 # if (a > 89):
 #     print("A")
@@ -68,14 +68,14 @@
 # else:
 #     print("F")
 
-#윤년
+# 윤년
 # a = int(input())
 # if a % 4 ==0 and a % 100 !=0 or a % 400 ==0:
 #     print("1")
 # else :
 #     print("0")
 
-#사분면 고르기
+# 사분면 고르기
 # a = int(input())
 # b = int(input())
 # if (a > 0 and b > 0):
@@ -87,14 +87,14 @@
 # else:
 #     print("4")
 
-#알람시계 
+# 알람시계
 # a, b = map(int, input().split())
 # c = (a * 60) + b - 45
 # if c < 0:
 #     c = c + 1440
-# print(c // 60, c % 60) 
+# print(c // 60, c % 60)
 
-#오븐시계
+# 오븐시계
 # h, m = map(int, input().split())
 # t = int(input())
 # m = m+t
@@ -110,19 +110,65 @@
 #         print(1000 + a * 100)
 #     elif b == c:
 #         print(1000 + b * 100)
-#     else: 
+#     else:
 #         print(1000 + c * 100)
 # else:
 #     M = [a, b, c]
 #     print(max(M) * 100)
 
-#구구단 
+# 구구단
 # N = int(input())
 # for i in range (1,10):
-#      print(N, '*' , i , '=',((N) * i))       
+#      print(N, '*' , i , '=',((N) * i))
 
 # A + B -3
 # T = int(input())
 # for i in range(T):
 #     a, b = map(int, input().split())
 #     print(a + b)
+
+# 영수증
+# X = int(input())
+# N = int(input())
+# sum = 0
+# for i in range(N):
+#     a, b = map(int, input().split())
+#     sum = (a * b) + sum
+# if (X == sum):
+#     print("Yes")
+# else:
+#     print("No")
+
+# 빠른 A+B
+# import sys
+# input = sys.stdin.readline
+# n = int(input())
+# for i in range(n):
+#     a, b = map(int, input().split())
+#     print(a + b)
+
+# A+B -7
+# import sys
+# input = sys.stdin.readline
+# n = int(input())
+# for i in range(1, n+1):
+#     a, b = map(int, input().split())
+#     print(f"Case #{i}:", (a + b))
+
+# A+B -8
+# import sys
+# input = sys.stdin.readline
+# n = int(input())
+# for i in range(1, n+1):
+#     a, b = map(int, input().split())
+#     print(f"Case #{i}: {a} + {b} =", (a + b))
+
+# 별찍기
+# N = int(input())
+# for i in range(1,N+1):
+#     print('*'*i)
+
+# 별찍기-2
+# N = int(input())
+# for i in range(1,N+1):
+#     print(' '*(N-i)+'*'*i)
