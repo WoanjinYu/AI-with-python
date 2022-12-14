@@ -172,3 +172,41 @@
 # N = int(input())
 # for i in range(1,N+1):
 #     print(' '*(N-i)+'*'*i)
+
+# A+B - 5
+# x = 1 
+# while(x != 0):
+#     a, b = map(int, input().split())
+#     x = a + b
+#     if x == 0:
+#         break
+#     print(x)
+
+# A+B - 4
+# while True:
+#     try:
+#         a, b = map(int,input().split())
+#         print(a+b)
+#     except:
+#         break
+
+#더하기 사이클 내일 다시풀어보기
+# N = int(input()) 
+# num = N 
+# count = 0 
+# while True:
+#     a = num//10
+#     b = num%10
+#     c = (a + b)%10
+#     num = (b*10)+c
+#     count +=1
+#     if num == N:
+#        break
+# print(count)
+
+#개수 세기 내일 다시 풀어보기
+# N = int(input())
+# num =list( map(int, input().split()))
+# v = int(input())
+# print(num.count(v))
+     
