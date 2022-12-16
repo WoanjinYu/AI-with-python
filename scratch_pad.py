@@ -204,9 +204,21 @@
 #         break
 # print(count)
 
-#개수 세기 내일 다시 풀어보기 python 내장함수 count() list형변환
+#개수 세기 python 내장함수 count() list형변환
 # N = int(input())
 # i = list(map(int, input().split()))
 # v = int(input())
 # print(i.count(v))
-     
+
+# x 보다 작은 수 내일 다시 풀기
+# N, x = map(int, input().split())
+# A = list(map(int, input().split()))
+# for i in range(N):
+#     if A[i] < x:
+#         print(A[i], end = " ")
+
+# 최솟값, 최댓값
+# n = int(input())
+# x = list(map(int, input().split()))
+# print(min(x),max(x))
+
