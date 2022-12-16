@@ -190,23 +190,23 @@
 #     except:
 #         break
 
-#더하기 사이클 내일 다시풀어보기
-# N = int(input()) 
-# num = N 
-# count = 0 
-# while True:
-#     a = num//10
+#더하기 사이클 내일   
+# N = int(input()) 변수1
+# num = N  변수2
+# count = 0 변수3
+# while True: 무한루프
+#     a = num//10 나머지 연산 활용.
 #     b = num%10
 #     c = (a + b)%10
-#     num = (b*10)+c
+#     num = (b * 10) + c
 #     count +=1
-#     if num == N:
-#        break
+#     if(num == N):
+#         break
 # print(count)
 
-#개수 세기 내일 다시 풀어보기
+#개수 세기 내일 다시 풀어보기 python 내장함수 count() list형변환
 # N = int(input())
-# num =list( map(int, input().split()))
+# i = list(map(int, input().split()))
 # v = int(input())
-# print(num.count(v))
+# print(i.count(v))
      
